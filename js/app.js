@@ -13,7 +13,7 @@ var clearButton = document.getElementById("clear");
 function Cars(name, category, year) {
   this.name = name;
   this.year = year;
-  this.category = `../img/${category}.png`;
+  this.category = `./img/${category}.png`;
 
   arrayOfObjects.push(this);
 }
