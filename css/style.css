@@ -1,0 +1,79 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  background-color: #4a4a4a;
+  text-align: center;
+  color: white;
+  height: 72px;
+  vertical-align: center;
+  padding-top: 21px;
+}
+
+form {
+  /* margin-top: 50px; */
+  background-color: #a3a3a3;
+  padding: 26px;
+  text-align: center;
+  float: left;
+  margin-right: 131px;
+  margin-left: 151px;
+  border-radius: 10px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+table {
+  /* margin-top: 100px; */
+  background-color: #a3a3a3;
+  text-align: center;
+  width: 50%;
+  border: 50px solid  #a3a3a3;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+table tr {
+  background-color: bisque;
+  border-bottom: 1px solid black;
+}
+
+table tr td:nth-child(2) {
+  text-align: start;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+
+
+
+form input, select {
+  width: 150px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+span {
+  display: block;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
+
+
+#clear {
+  margin-top: 10px;
+}
